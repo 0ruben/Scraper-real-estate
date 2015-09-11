@@ -40,17 +40,26 @@
   * Run: npm install sails-mysql                                             *
   *                                                                          *
   ***************************************************************************/
-  mysql: {
+  // mysql_dev: {
+  //   adapter: 'sails-mysql',
+  //   host: 'localhost',
+  //   port:   8889,
+  //   user: 'root',
+  //   password: 'root',
+  //   database: 'efficrawler',
+  //   // connectionLimit: 0,
+  //   // connectTimeout: 60000,
+  //   // waitForConnections: false,
+  //   // pool: false
+  // },
+
+    mysql_prod: {
     adapter: 'sails-mysql',
-    host: 'localhost',
-    port:   8889,
+    host: '62.210.115.66',
+    port:   3306,
     user: 'root',
-    password: 'root',
-    database: 'efficrawler',
-    // connectionLimit: 0,
-    // connectTimeout: 60000,
-    // waitForConnections: false,
-    // pool: false
+    password: 'labzeur1230',
+    database: 'efficrawler'
   },
 
   /***************************************************************************
